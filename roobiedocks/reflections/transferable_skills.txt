@@ -1,0 +1,8 @@
+1. My previous experiences in various technologies will help me a lot while doing these projects, some of which are:
+- HTML
+- CSS
+- JavaScript
+- Jquery
+- SQL databases
+
+2. I also have some experience working as a FrontEnd Web Developer and I believe that will help me a lot in any programming language that I try to learn.

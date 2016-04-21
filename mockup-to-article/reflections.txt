@@ -1,0 +1,17 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+  * What has been easy?
+  * What has been difficult?
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+---
+
+Your response goes here!
+
+- I've learned a lot since I took up Web Development and it's been a great experience. I've learned HTML, CSS, JavaScript and Ruby on Rails so far.
+
+- It's been easy in a way that I've enjoyed whatever I've been doing and I think that has helped a lot because it makes me keep going.
+
+- CSS has been difficult at times because it isn't really a science, it is something that I believe I will keep on improving over time. Another difficult thing would be using APIs that aren't very well documented.
+
+- I am applying as a reviwer so I am not sure about what the first project was but I always learn something new from all the projects I do and they have always helped me in furute projects.

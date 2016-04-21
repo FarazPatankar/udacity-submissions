@@ -1,0 +1,3 @@
+1. The challenges I feel I will face are getting lost in the rabbit hole trying to make a decision on what approach to take in a project. In Ruby, there are usually multiple ways to do things and I often spend a lot of time deciding what approach to take rather than simply trying something out.
+
+2. Another challenge I feel I will face is integrating ruby into different projects that use various other technologies and making sure everything runs properly.

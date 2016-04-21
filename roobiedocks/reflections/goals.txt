@@ -1,0 +1,3 @@
+1. My goal when I first learned ruby was to take the next step in my programming journey so that I'd eventually be able to create full stack web applications.
+
+2. My goals now are to continue building fully functional applications and also to help budding developers that want to learn to code.
