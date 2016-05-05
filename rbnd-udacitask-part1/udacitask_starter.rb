@@ -46,3 +46,9 @@ list.sort_tasks
 
 # Print the list
 list.list_printer
+
+# Show incomplete tasks
+list.show_incomplete
+
+# Show completed tasks
+list.show_complete

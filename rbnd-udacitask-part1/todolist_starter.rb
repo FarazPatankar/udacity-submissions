@@ -23,7 +23,7 @@ class TodoList
         puts @title.upcase
 
         @tasks.each_with_index do |task, index|
-        puts "#{index + 1}. #{task.description.capitalize}"
+            puts "#{index + 1}. #{task.description.capitalize}"
         end
 
         puts "*" * 20
@@ -32,6 +32,34 @@ class TodoList
 
     def sort_tasks
         @tasks.sort! { |task_1, task_2| task_1.created_at <=> task_2.created_at }
+    end
+
+    def show_incomplete
+        puts "*" * 20
+        puts "Incomplete tasks in #{@title.upcase}"
+
+        @tasks.each_with_index do |task, index|
+            if !task.status
+                puts "#{index + 1}. #{task.description.capitalize}"
+            end
+        end
+
+        puts "*" * 20
+        puts ""
+    end
+
+    def show_complete
+        puts "*" * 20
+        puts "Completed tasks in #{@title.upcase}"
+
+        @tasks.each_with_index do |task, index|
+            if task.status
+                puts "#{index + 1}. #{task.description.capitalize}"
+            end
+        end
+
+        puts "*" * 20
+        puts ""
     end
 
 end
