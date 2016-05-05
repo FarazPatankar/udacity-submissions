@@ -5,9 +5,9 @@ list = TodoList.new("My List")
 
 # Add four new items
 wake_up = Item.new("wake up")
-brush_teeth = Item.new("brush teeth")
-shower = Item.new("shower")
 work = Item.new("work")
+shower = Item.new("shower")
+brush_teeth = Item.new("brush teeth")
 
 list.add_item(wake_up)
 list.add_item(brush_teeth)
@@ -37,6 +37,12 @@ list.list_printer
 
 # Update the title of the list
 list.rename_list("Daily chores")
+
+# Print the list
+list.list_printer
+
+# Sort tasks
+list.sort_tasks
 
 # Print the list
 list.list_printer

@@ -30,15 +30,20 @@ class TodoList
         puts ""
     end
 
+    def sort_tasks
+        @tasks.sort! { |task_1, task_2| task_1.created_at <=> task_2.created_at }
+    end
+
 end
 
 class Item
-	attr_reader :description
+	attr_reader :description, :created_at
 	attr_accessor :status
     # methods and stuff go here
     def initialize(description)
     	@description = description
     	@status = false
+        @created_at = Time.now
     end
 
     def mark_as_complete
