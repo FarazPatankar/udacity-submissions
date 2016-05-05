@@ -18,6 +18,18 @@ class TodoList
     	@tasks.delete(item)
     end
 
+    def list_printer
+        puts "*" * 20
+        puts @title.upcase
+
+        @tasks.each_with_index do |task, index|
+        puts "#{index + 1}. #{task.description.capitalize}"
+        end
+
+        puts "*" * 20
+        puts ""
+    end
+
 end
 
 class Item

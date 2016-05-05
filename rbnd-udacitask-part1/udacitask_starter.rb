@@ -15,38 +15,28 @@ list.add_item(shower)
 list.add_item(work)
 
 # Print the list
-list.tasks.each_with_index do |task, index|
-	puts "#{index + 1} - #{task.description.capitalize}"
-end
+list.list_printer
 
 # Delete the first item
 list.remove_item(wake_up)
 
 # Print the list
-list.tasks.each_with_index do |task, index|
-	puts "#{index + 1} - #{task.description.capitalize}."
-end
+list.list_printer
 
 # Delete the second item
 list.remove_item(brush_teeth)
 
 # Print the list
-list.tasks.each_with_index do |task, index|
-	puts "#{index + 1}. #{task.description.capitalize}"
-end
+list.list_printer
 
 # Update the completion status of the first item to complete
 list.tasks.first.mark_as_complete
 
 # Print the list
-list.tasks.each_with_index do |task, index|
-	puts "#{index + 1}. #{task.description.capitalize}"
-end
+list.list_printer
 
 # Update the title of the list
 list.rename_list("Daily chores")
 
 # Print the list
-list.tasks.each_with_index do |task, index|
-	puts "#{index + 1}. #{task.description.capitalize}"
-end
+list.list_printer
