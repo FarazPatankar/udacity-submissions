@@ -30,8 +30,12 @@ class TodoList
         puts ""
     end
 
-    def sort_tasks
+    def sort_by_date
         @tasks.sort! { |task_1, task_2| task_1.created_at <=> task_2.created_at }
+    end
+
+    def sort_by_priority
+        @tasks.sort! { |task_1, task_2| task_2.priority <=> task_1.priority }
     end
 
     def show_incomplete
@@ -65,13 +69,14 @@ class TodoList
 end
 
 class Item
-	attr_reader :description, :created_at
+	attr_reader :description, :created_at, :priority
 	attr_accessor :status
     # methods and stuff go here
-    def initialize(description)
+    def initialize(description, priority)
     	@description = description
     	@status = false
         @created_at = Time.now
+        @priority = priority
     end
 
     def mark_as_complete

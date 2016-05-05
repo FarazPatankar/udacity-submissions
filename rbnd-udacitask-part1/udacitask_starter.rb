@@ -4,10 +4,10 @@ require_relative 'todolist_starter.rb'
 list = TodoList.new("My List")
 
 # Add four new items
-wake_up = Item.new("wake up")
-work = Item.new("work")
-shower = Item.new("shower")
-brush_teeth = Item.new("brush teeth")
+wake_up = Item.new("wake up", 1)
+work = Item.new("work", 0)
+shower = Item.new("shower", 2)
+brush_teeth = Item.new("brush teeth", 2)
 
 list.add_item(wake_up)
 list.add_item(brush_teeth)
@@ -15,6 +15,10 @@ list.add_item(shower)
 list.add_item(work)
 
 # Print the list
+list.list_printer
+
+# Sort by priority and print
+list.sort_by_priority
 list.list_printer
 
 # Delete the first item
@@ -42,7 +46,7 @@ list.rename_list("Daily chores")
 list.list_printer
 
 # Sort tasks
-list.sort_tasks
+list.sort_by_date
 
 # Print the list
 list.list_printer
