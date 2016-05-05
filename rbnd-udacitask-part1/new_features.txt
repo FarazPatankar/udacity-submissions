@@ -1,0 +1,7 @@
+1) Added a list printer method to print out the todo list.
+
+2) Added a created_at attribute to the individual tasks and the ability to sort by that attribute.
+
+3) Added the ability to view both incomplete and completed tasks.
+
+4) Added a priority attribute to each individual task and the ability to sort based on the priority.

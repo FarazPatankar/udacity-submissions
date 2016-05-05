@@ -86,4 +86,14 @@ class Item
     def completed?
     	@status
     end
+
+    def print_item
+        puts "*" * 20
+        if @status
+            puts "The task '#{@description}' has been completed"
+        else
+            puts "The task '#{@description}' has not been completed"
+        end
+        puts "*" * 20
+    end
 end

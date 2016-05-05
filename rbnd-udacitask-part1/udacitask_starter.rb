@@ -56,3 +56,6 @@ list.show_incomplete
 
 # Show completed tasks
 list.show_complete
+
+# Demonstration of item printing method
+wake_up.print_item

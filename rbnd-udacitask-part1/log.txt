@@ -1,0 +1,29 @@
+commit 2b5be483f872ffae1650afc36658b2832b693d8e
+Author: Faraz Patankar <farazpatankar@gmail.com>
+Date:   Thu May 5 01:13:36 2016 -0400
+
+    Add priority to tasks and ability to sort by priority
+
+commit 43024ee6f5cfcaefe283cd3557077bd05c7db904
+Author: Faraz Patankar <farazpatankar@gmail.com>
+Date:   Thu May 5 01:03:01 2016 -0400
+
+    Add ability to view incomplete and completed tasks
+
+commit 3e290a514f62841130b1d8a8a7874061415f7ddc
+Author: Faraz Patankar <farazpatankar@gmail.com>
+Date:   Thu May 5 00:51:57 2016 -0400
+
+    Add ability to sort tasks based on when they were created
+
+commit d41a076b2c0e966f9efcd9b2908e37890269e837
+Author: Faraz Patankar <farazpatankar@gmail.com>
+Date:   Thu May 5 00:31:11 2016 -0400
+
+    create a list printer method to refactor code.
+
+commit 7e061f248943f10408956e3335411bcbe8ddc614
+Author: Faraz Patankar <farazpatankar@gmail.com>
+Date:   Thu May 5 00:29:18 2016 -0400
+
+    Achieve basic functionality
